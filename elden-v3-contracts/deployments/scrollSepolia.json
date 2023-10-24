@@ -1,0 +1,89 @@
+Mock Tokens
+{
+    "WETH": "0xBCA0C8aAFb45010cD9488Edba02D2F688c41E6eD",
+    "USDT": "0x00f8d52192666a7c20Eba7EFa3F5bBd866843952",
+    "USDC": "0x02a3e7e0480b668bd46b42852c58363f93e3ba5c",
+    "Elden": "0x4815204D490F4300183E61A9C6b273D62191F7Cd",
+    "sElden": "0xc8B2e27B0E00eA9b7Cb07411f95d63a6E0b55c2b",
+}
+
+
+Earning
+{
+    "EldenMaster":  "0x17621fB81F1B35A70477eC7145d7bD25e1A1EC49",
+    "NFTPoolFactory":  "0x87AA6a0d5139E09B7dc551C8c69d736EA353F3aF",
+    "YieldBooster":  "0x9383c25405362deD488D5754F803cF5Cc9FfcD65",
+    "Dividends":  "0xBf2A308dB44181ee3Afb6C369A59d50c164385b4",
+    "Launchpad":  "0x5fD0C598F3DDC664c8E0ef5e6202887731727Ee0",
+}
+
+
+V2 Exchange
+{
+    "V2Factory": "0xd8864CDadba883c40d3209a1E29eEF98DcA2Ed8f",
+    "V2Router": "0xb7b008073A71D91372ab29FA63B6C9ea3e8a7409",,
+    "PositionHelper": "0x30831c14B8878aa55Db6CB5d10EEb159d1E4Ee45",
+    "init code hash": "0xffa2c5f53dc3f7b5a48255dfa2ea6a8429535c365cbec5308a761d92c2cb9775",
+
+
+    "WETH_USDT_PAIR": "0x04d35cb283f77c2407d27ca0d8546b3d0fcd80fb",
+    "WETH_USDC_PAIR": "0xDA459F7Ca8cB8aa8dA80f957cca79e2C3f3833B8",
+}
+
+
+Stable Swap
+{
+    "EldenStableSwapLPFactory": "0x33aC5145e06E1a0e47a08d65FAAf6E361d2E978a",
+    "EldenStableSwapTwoPoolDeployer": "0x35099ac29302dF69562bB541b0955738A399AF98",
+    "EldenStableSwapThreePoolDeployer": "0x8694847eD9F874917B9a9D4c3D57f37fEf24ca21",
+    "EldenStableSwapFactory": "0x0aD991a227925E4f12272Fd1D298cEB61338b68e",
+    "EldenStableSwapTwoPoolInfo": "0xF2dEaD06589A23F61a16B44aCFfcce6382b3aBE7",
+    "EldenStableSwapInfo": "0x04b9C4AA5a01CdA7C3518Bf5D63580179256c1cA",
+
+    
+    "USDT-USDC Stableswap Pair": 
+    {
+        "swapContract": "0x3f50415e0e22f4a75fa9315b9cec68f32c24180c",
+        "tokenA": "0x00f8d52192666a7c20eba7efa3f5bbd866843952",
+        "tokenB": "0x02a3e7e0480b668bd46b42852c58363f93e3ba5c",
+        "tokenC": "0x0000000000000000000000000000000000000000",
+        "LP": "0x714a23c41893e277c098dca764efe541d5cc8c42",
+        "stableLpFee": 0.0004, //4000000
+        "stableLpFeeRateOfTotalFee": 0.5, //5000000000
+        "_A": 1000
+    }
+
+}
+
+
+
+Smart Router
+{
+    "SmartRouter": "0x83FC5330B7c1DBc8c6F8eD0455E5552d4e118379",
+    "SmartRouterHelper": "0xD0Ffee23329f5f96c624F6ab904BE7181b18DEee",
+    "MixedRouteQuoterV1": "0xaE44B79983A6fe35AA33833dCC069e6B307DF98b",
+    "QuoterV2": "0x086415150c51B40469A587a9805c2d45e94932aE",
+    "TokenValidator": "0xC186Fc1b40E7c62b99FCe5170580525076e28c76"
+}
+
+
+V3 Core
+{
+    "EldenV3Factory": "0x9c8D5e1b699AE31CcE66d0658E82f224Aa9d44eD",
+    "EldenV3PoolDeployer": "0x0651A45293Dcd72C9180fd671F383EfFA002DeA8"
+}
+
+
+V3 Periphery
+{
+    "SwapRouter": "0x6A0B446ca002B413822C125C2d296F9E4EAe9E33",
+    "NonfungibleTokenPositionDescriptor": "0x10Ad7F70f736ef147Cc13e07b2DCFfc587298F6c",
+    "NonfungiblePositionManager": "0x5738A9574928805A73371420005d160E7184b067",
+    "EldenInterfaceMulticall": "0xf6F89b6a565E38574FA5561Ec838De9cB468F8Fe",
+    "V3Migrator": "0xe71e794aA1C1be38978d3fDC8bCE50326937e5b5",
+    "TickLens": "0xFEB1481f4550a8275a55b164Cb6D21701c615F46",
+    "QuoterV2": "0xeF904e26d777e167467FE8c04CCD76c7BeB673df"
+}
+
+V3 Init Code Hash
+0x770f196794b909661ebcbcbc6fce2549f2941b7f574c8d03123f305d7761c719
